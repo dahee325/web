@@ -1,0 +1,37 @@
+<!-- 주석달기 : ctrl + / -->
+<!-- <태그명 속성명1="속성값1" 속성명2="속성값2"> 내용 </태그명>> -->
+
+<!-- !를 치고 탭을 누르면 html의 기본구조가 나타남 -->
+<!DOCTYPE html> <!-- html규격을 만들어줌 -->
+<html lang="en">
+    <head> <!--위의 헤드를 보여줌-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>html</title>
+    </head>
+    <body> <!-- 실제로 보여지는 내용-->
+        <!-- 헤딩, 제목-->
+        <h1>hello</h1>
+        <h2>hi</h2>
+        <h3>good</h3> <!--상위개념 : h1, 하위개념일수록 h2, h3-->
+        
+        <p>hello <strong>world</strong></p> <!--strong : 단어를 굵게-->
+        <p>hello <b>world</b></p> 
+        <!--우리가 볼 때는 strong과 b는 같지만, strong은 시멘틱 태그라고 함-->
+        <!--시멘틱 태그 : 강조하기 위해 사용, 포함된 콘텐츠의 특정 의미를 정의하고목적을 갖는 태그-->
+
+        <ul> <!--순서가 없는 리스트를 쓸 때 사용-->
+            <li>first</li>
+            <li>second</li>
+        </ul>
+        <ol> <!-- 순서가 있는 리스트를 쓸 때 사용(번호를 매겨줌)-->
+            <li>first</li>
+            <li>second</li>
+        </ol>
+
+        <a href="https://google.com">google</a> <!--href="" : 어떤 주소와 연결할지 저장하는 공간-->
+        <img src="./hello.jpg" alt="강아지"> <!--이미지 태그, 여는 태그는 있는데 닫는 태그는 없음-->
+        <!--scr="" : 이미지의 경로 저장, lat="" : 이미지가 문제가 있을 때 보여주는 역할-->
+        <img src="https://flexible.img.hani.co.kr/flexible/normal/960/960/imgdb/resize/2019/0121/00501111_20190121.webp" alt="">
+    </body>
+</html>

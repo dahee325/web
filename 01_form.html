@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action=""> <!--form : 사용자가 어떤 값을 입력하는 것-->
+        <!--input의 이름 설정, label과 input은 한 세트-->
+        <label for="title">Name : </label> <!--for="" : 해당 라벨의 id와 똑같은 이름을 넣어야함-->
+        <!--input : 인풋태그, 회원가입, 게시물을 작성할 때 사용, type=""은 필요에 따라 찾아서 바꿈-->
+        <input type="text" id="title" name="title"> <!--문자 입력-->
+        <br> <!--줄바꿈-->
+        <label for="age">Age : </label>
+        <input type="number" id="age" name="age"> <!--숫자 입력-->
+        <br>
+        <label for="email">E-mail : </label>
+        <input type="email" id="email" name="email"> <!--이메일 입력-->
+
+        <input type="color">
+        <input type="button">
+
+        <input type="checkbox" value="1"> <!--중복체크-->
+        <input type="checkbox" value="2">
+        <input type="checkbox" value="3">
+
+        <input type="radio" value="1" name="num"> <!--하나만 체크-->
+        <input type="radio" value="2" name="num">
+        <input type="radio" value="3" name="num">
+
+        <input type="submit"> <!--제출 버튼, 제출하면 URL주소가 바뀜(요소로 입력값 추가됨)-->
+    </form>
+</body>
+</html>
