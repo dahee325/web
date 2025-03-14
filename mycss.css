@@ -21,3 +21,51 @@ p {
 .a {
     color: #a038a0;
 }
+
+ol {
+    font-size: 12px;
+}
+ /*ol태그 안의 li태그 중 클래스가 a인 것들*/
+/* ol > li.a와 같음*/
+ ol > .a {
+    font-size: 10px;
+}
+/*#unique와 같음*/
+ol > #unique {
+    background-color: red; /*배경색*/
+}
+
+/*a태그의 link색 지정*/
+a:link {
+    color: yellow;
+}
+ /*a태그의 방문했던 링크의 색 지정*/
+a:visited {
+    color: pink;
+}
+/*div의 display기본값은 block(줄바꿈)*/
+div {
+    /* display: inline; */
+}
+
+a {
+    /* display: block; */
+}
+
+div.square {
+    background-color: red;
+    width: 100px; /*가로*/
+    height: 100px; /*세로*/
+}
+
+.border {
+    border-style: solid; /*실선으로 표현*/
+    border-width: 3px;
+}
+
+.margin {
+    /* margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 20px; */
+    margin: 5px 10px 15px 20px; /*위 오른쪽 아래 왼쪽*/
+}
