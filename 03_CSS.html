@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>  
+        h2 { /*style태그 안은 CSS문법 - 바꾸고싶은 요소 {바꿀 정보;}*/
+            color: blue;
+        }
+    </style>
+    <!--css파일에 요소별 스타일을 지정, link태그에 css파일 연결-->
+    <link rel="stylesheet" href="mycss.css">
+</head>
+<body>
+    <h1 style="color: red">hello</h1>
+    <h2>world</h2>
+    <h3>hi</h3>
+
+    <p id="first">여기는 본문입니다.</p>
+    <p id="second">두번째 본문입니다.</p>
+
+    <ul> <!--id="" : 하나의 요소만 설정, class="" : 여러 요소를 같이 지정 가능-->
+        <li id="f" class="a">첫번째</li> <!---->
+        <li id="s" class="a">두번째</li>
+        <li id="t" class=b>세번째</li>
+    </ul>
+
+</body>
+</html>
